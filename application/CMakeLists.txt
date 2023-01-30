@@ -1,0 +1,3 @@
+file(GLOB_RECURSE APPLICATION ./*.cpp)
+
+ADD_LIBRARY(application ${APPLICATION})
